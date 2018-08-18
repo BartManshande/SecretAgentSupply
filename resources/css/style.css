@@ -1,0 +1,22 @@
+html {
+    /* Setting the base font-size for use of the rem */
+    font-size: 18px;
+    width: 960px;
+    margin: 0 auto;
+}
+/* TOP BAR */
+header #top-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 0.66rem 0;
+}
+header #top-bar img {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    height: 1.5rem;
+}
+header #top-bar h2 {
+    font-family: Helvetica;
+    font-size: 1rem;
+}
