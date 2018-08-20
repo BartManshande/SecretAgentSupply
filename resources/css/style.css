@@ -2,6 +2,7 @@ html {
     /* Setting the base font-size for use of the rem */
     font-size: 18px;
     font-family: Helvetica;
+    color: white;
 }
 .container {
     width: 960px;
@@ -12,7 +13,6 @@ html {
 
 .company {
     background-color: black;
-    color: white;
 }
 .company .container {
     display: flex;
@@ -40,7 +40,6 @@ html {
 }
 .headline {
     background-color: black;
-    color: white;
     width: 20rem;
     position: relative;
     top: 9rem;
@@ -56,3 +55,60 @@ html {
     font-weight: bold;
 }
 
+/* Navigation Bar */
+nav {
+    background-color: firebrick;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+}
+
+/* Products and Business Info */
+.products, .business-info {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.product {
+    width: 30%;
+}
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+
+}
+.product-image img{
+    max-width: 100%;
+    height: 9rem;
+    margin: 2rem 0;
+}
+.description {
+    display: block;
+    text-align: center;
+    background-color: black;
+    padding: 0.5rem 0;
+}
+.info {
+    width: 35%;
+    color: black;
+    margin-bottom: 4rem;
+}
+.info .title {
+    padding: 1rem 0 1rem 2rem; 
+    background-color: black;
+    color: white;
+    display: block;
+}
+
+/* Footer */
+footer {
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
